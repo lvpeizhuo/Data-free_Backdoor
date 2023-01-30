@@ -1,0 +1,15 @@
+{
+    "model": "resnets",
+    "checkpoint": "resnets_clean",
+    "distill_data": "cifar100",
+    "compressed": "True",
+    "com_ratio": 0.4,
+    "data": "cifar10",
+    "poison_ratio": 0.01,
+    "target_label": 8,
+    "scale": 0.25,
+    "position": "lower_right",
+    "opacity": 1,
+    "epochs": 100,
+    "lr": 0.0001
+} 

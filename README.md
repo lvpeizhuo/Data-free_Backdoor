@@ -33,10 +33,11 @@ python poison_model.py
 ## Citation
 If our paper helps you, you can cite it as below:
 ```bash
-@article{lvdata,
+@inproceedings{lv2023data,
   title={A Data-free Backdoor Injection Approach in Neural Networks},
-  author={Lv, Peizhuo and Yue, Chang and Liang, Ruigang and Yang, Yunfei and Zhang, Shengzhi and Ma, Hualong and Chen, Kai}
-  booktitle={Usenix Security},
+  author={Lv, Peizhuo and Yue, Chang and Liang, Ruigang and Yang, Yunfei and Zhang, Shengzhi and Ma, Hualong and Chen, Kai},
+  booktitle={32nd USENIX Security Symposium (USENIX Security 23)},
+  pages={2671--2688},
   year={2023}
 }
 ```

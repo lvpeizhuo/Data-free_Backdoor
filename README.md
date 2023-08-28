@@ -9,7 +9,7 @@ The following is the workflow of Data-free Backdoor:
 ![image](https://github.com/lvpeizhuo/Data-free_Backdoor/blob/main/workflow.png)
 
 ## Usage
-Download Pre-trained Models:
+Download Pre-trained Models and Experimental Datasets:
 ```bash
 https://www.dropbox.com/sh/uwh51z8u292lzz5/AAC6MMT6E7MJbQ0RLYz6iyeNa?dl=0
 ```

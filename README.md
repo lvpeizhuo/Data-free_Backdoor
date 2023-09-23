@@ -26,6 +26,8 @@ Backdoor Injection:
 python poison_model.py
 ```
 
+We generate the backdoored model with good performance on the main task and the backdoor task by training with more epochs (not only 100 epochs). We will train the backdoored model by 1000 epochs, and save a checkpoint by 100 epochs. Then we continue to inject the backdoor based on the previous saved checkpoint (by python poison_model.py). Specifically, in each 100 epochs, we need to adjust the value of poison_rate. And the value is 0.01(0-100 epoch), 0.01(100-200 epoch),  0.001(200-1000 epoch). Thus, you can obtain a  backdoored model with an ASR above 90% and an accuracy of 88%. Note that we can also try other values of poison_rate and learning rate to obtain better performance.
+
 ## Trigger_Patterns_of_GTSRB
 ![image](https://github.com/lvpeizhuo/Data-free_Backdoor/blob/main/Trigger_Patterns_of_GTSRB.png)
 
